@@ -21,11 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="812020a9-3221-426e-85db-494d3b28b2f3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/alkxyly/clientes/model/repository/ServicoPrestadoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/alkxyly/clientes/model/repository/ServicoPrestadoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/alkxyly/clientes/rest/ServicoPrestadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/alkxyly/clientes/rest/ServicoPrestadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/model/entity/ServicoPrestado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/model/entity/ServicoPrestado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/model/repository/ServicoPrestadoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/model/repository/ServicoPrestadoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/rest/ServicoPrestadoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/rest/ServicoPrestadoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/alkxyly/clientes/rest/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/alkxyly/clientes/rest/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/rest/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/rest/ClienteController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,27 +140,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1602558837936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1602558837936" />
-    <state width="935" height="281" key="GridCell.Tab.0.bottom" timestamp="1602562682979">
+    <state width="926" height="281" key="GridCell.Tab.0.bottom" timestamp="1603141214551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602562682979" />
-    <state width="935" height="281" key="GridCell.Tab.0.center" timestamp="1602562682979">
+    <state width="926" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603141214551" />
+    <state width="926" height="281" key="GridCell.Tab.0.center" timestamp="1603141214550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602562682979" />
-    <state width="935" height="281" key="GridCell.Tab.0.left" timestamp="1602562682979">
+    <state width="926" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603141214550" />
+    <state width="926" height="281" key="GridCell.Tab.0.left" timestamp="1603141214550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602562682979" />
-    <state width="935" height="281" key="GridCell.Tab.0.right" timestamp="1602562682979">
+    <state width="926" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603141214550" />
+    <state width="926" height="281" key="GridCell.Tab.0.right" timestamp="1603141214551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602562682979" />
+    <state width="926" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603141214551" />
   </component>
 </project>
