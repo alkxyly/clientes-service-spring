@@ -38,7 +38,9 @@ public class ServicoPrestadoController {
         servicoPrestado.setDescricao(dto.getDescricao());
         servicoPrestado.setData(LocalDate.parse(dto.getData(), DateTimeFormatter.ofPattern("dd/MM/yyyy")));
         servicoPrestado.setCliente(cliente);
+
         servicoPrestado.setValor(bigDecimalConverter.converter(dto.getPreco()));
+
         return servicoPrestadoRepository.save(servicoPrestado);
     }
 
