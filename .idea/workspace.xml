@@ -20,7 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="812020a9-3221-426e-85db-494d3b28b2f3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_2_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clientes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +60,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -146,25 +161,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1602558837936" />
-    <state width="655" height="135" key="GridCell.Tab.0.bottom" timestamp="1604355376198">
+    <state width="1317" height="178" key="GridCell.Tab.0.bottom" timestamp="1604358476850">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="655" height="135" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1604355376198" />
+    <state width="1317" height="178" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1604358476850" />
     <state width="926" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603160444507" />
-    <state width="655" height="135" key="GridCell.Tab.0.center" timestamp="1604355376198">
+    <state width="1317" height="178" key="GridCell.Tab.0.center" timestamp="1604358476849">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="655" height="135" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1604355376198" />
+    <state width="1317" height="178" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1604358476849" />
     <state width="926" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603160444506" />
-    <state width="655" height="135" key="GridCell.Tab.0.left" timestamp="1604355376198">
+    <state width="1317" height="178" key="GridCell.Tab.0.left" timestamp="1604358476849">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="655" height="135" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1604355376198" />
+    <state width="1317" height="178" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1604358476849" />
     <state width="926" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603160444506" />
-    <state width="655" height="135" key="GridCell.Tab.0.right" timestamp="1604355376198">
+    <state width="1317" height="178" key="GridCell.Tab.0.right" timestamp="1604358476850">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="655" height="135" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1604355376198" />
+    <state width="1317" height="178" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1604358476850" />
     <state width="926" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603160444507" />
     <state x="454" y="179" key="run.anything.popup" timestamp="1604354447935">
       <screen x="0" y="0" width="1360" height="728" />
