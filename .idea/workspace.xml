@@ -25,8 +25,7 @@
     <list default="true" id="812020a9-3221-426e-85db-494d3b28b2f3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/alkxyly/clientes/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/alkxyly/clientes/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/config/AuthorizationServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/config/AuthorizationServerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/config/ResourceServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/alkxyly/clientes/config/ResourceServerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/alkxyly/clientes/model/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/alkxyly/clientes/model/repository/UsuarioRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -103,13 +102,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,7 +159,8 @@
       <updated>1602171076811</updated>
       <workItem from="1604636829677" duration="365000" />
       <workItem from="1604714257507" duration="893000" />
-      <workItem from="1604849559668" duration="2672000" />
+      <workItem from="1604849559668" duration="6684000" />
+      <workItem from="1605056791492" duration="1396000" />
     </task>
     <servers />
   </component>
@@ -183,30 +185,38 @@
     </state>
     <state x="312" y="0" key="#Project_Structure/0.0.1360.728@0.0.1360.728" timestamp="1604636996257" />
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1602558837936" />
+    <state x="485" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1605056922193">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="485" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1605056922193" />
     <state x="612" y="119" key="FileChooserDialogImpl" timestamp="1604636993233">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="612" y="119" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1604636993233" />
-    <state width="1280" height="160" key="GridCell.Tab.0.bottom" timestamp="1604719807001">
+    <state width="914" height="158" key="GridCell.Tab.0.bottom" timestamp="1604895596997">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1280" height="160" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1604719807001" />
+    <state width="914" height="158" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1604895596997" />
     <state width="926" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603160444507" />
-    <state width="1280" height="160" key="GridCell.Tab.0.center" timestamp="1604719807001">
+    <state width="914" height="158" key="GridCell.Tab.0.center" timestamp="1604895596997">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1280" height="160" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1604719807001" />
+    <state width="914" height="158" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1604895596997" />
     <state width="926" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603160444506" />
-    <state width="1280" height="160" key="GridCell.Tab.0.left" timestamp="1604719807001">
+    <state width="914" height="158" key="GridCell.Tab.0.left" timestamp="1604895596997">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1280" height="160" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1604719807001" />
+    <state width="914" height="158" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1604895596997" />
     <state width="926" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603160444506" />
-    <state width="1280" height="160" key="GridCell.Tab.0.right" timestamp="1604719807001">
+    <state width="914" height="158" key="GridCell.Tab.0.right" timestamp="1604895596997">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1280" height="160" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1604719807001" />
+    <state width="914" height="158" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1604895596997" />
     <state width="926" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603160444507" />
+    <state x="181" y="9" key="SettingsEditor" timestamp="1605057429705">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="181" y="9" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1605057429705" />
     <state x="454" y="179" key="run.anything.popup" timestamp="1604354447935">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
