@@ -17,7 +17,7 @@ public class UsuarioService implements UserDetailsService {
     private UsuarioRepository usuarioRepository;
 
     public void salvar(Usuario usuario){
-        boolean exists = usuarioRepository.existsByUserName(usuario.getUsername());
+        boolean exists = usuarioRepository.existsByUsername(usuario.getUsername());
 
         if(exists)
             throw new UsuarioCadastradoException(usuario.getUsername());

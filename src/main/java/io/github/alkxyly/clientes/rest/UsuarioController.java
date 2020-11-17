@@ -22,11 +22,12 @@ public class UsuarioController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void salvar(@RequestBody @Valid Usuario usuario){
+    public void salvar(@RequestBody @Valid Usuario usuario) throws Exception{
         try{
             usuarioService.salvar(usuario);
-        }catch (UsuarioCadastradoException u){
-            throw  new ResponseStatusException(HttpStatus.BAD_REQUEST, u.getMessage());
+        }catch (UsuarioCadastradoException e){
+            System.out.println(e.getMessage());
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, e.getMessage());
         }
 
     }
